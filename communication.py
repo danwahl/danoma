@@ -31,8 +31,8 @@ def command(depth: int, board: chess.Board, msg: str):
         sys.exit()
 
     if msg == "uci":
-        print("id name Andoma")  # Andrew/Roma -> And/oma
-        print("id author Andrew Healey & Roma Parramore")
+        print("id name Danoma")  # Dan/Andrew/Roma -> Dan/oma
+        print("id author Andrew Healey & Roma Parramore (& Dan Wahl)")
         print("uciok")
         return
 

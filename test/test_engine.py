@@ -67,7 +67,7 @@ class TestCommunication(unittest.TestCase):
 
     def test_go_command_black(self):
         """
-        Test go command with Andoma playing with black pieces
+        Test go command with Danom playing with black pieces
         """
         board = chess.Board()
         with patch("sys.stdout", new=StringIO()) as patched_output:
@@ -107,7 +107,7 @@ class TestCommunication(unittest.TestCase):
 
     def test_go_command_white(self):
         """
-        Test go command with Andoma playing with white pieces
+        Test go command with Danoma playing with white pieces
         """
         board = chess.Board()
         with patch("sys.stdout", new=StringIO()) as patched_output:
@@ -145,7 +145,7 @@ class TestCommunication(unittest.TestCase):
 
     def test_draw(self):
         """
-        Test go command with Andoma on the verge of drawing due to threefold repetition
+        Test go command with Danoma on the verge of drawing due to threefold repetition
         """
         board = chess.Board()
         with patch("sys.stdout", new=StringIO()) as patched_output:

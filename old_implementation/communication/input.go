@@ -36,8 +36,8 @@ func Commands(text string, match *match) bool {
 	depth := 2 // TODO: accept this as an option/config value somewhere
 
 	if text == "uci" {
-		fmt.Println("id name Andoma") // Andrew/Roma -> And/oma
-		fmt.Println("id author Andrew Healey & Roma Parramore")
+		fmt.Println("id name Danoma") // Dan/Andrew/Roma -> Dan/oma
+		fmt.Println("id author Andrew Healey & Roma Parramore (& Dan Wahl)")
 		fmt.Println("uciok")
 		return false
 	}

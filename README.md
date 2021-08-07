@@ -1,6 +1,6 @@
-[![Unit tests and puzzles](https://github.com/healeycodes/andoma/workflows/Unit%20tests%20and%20puzzles/badge.svg)](https://github.com/healeycodes/andoma/actions/workflows/python-app.yml)
+[![Unit tests and puzzles](https://github.com/danwahl/danoma/workflows/Unit%20tests%20and%20puzzles/badge.svg)](https://github.com/danwahl/danoma/actions/workflows/python-app.yml)
 
-# ♟ Andoma
+# ♟ Danoma
 > My blog post: [Building My Own Chess Engine](https://healeycodes.com/building-my-own-chess-engine/)
 
 <br>
@@ -59,8 +59,8 @@ An example interaction with the engine (responses have `#`):
 
 ```bash
 uci
-# id name Andoma
-# id author Andrew Healey & Roma Parramore
+# id name Danoma
+# id author Andrew Healey & Roma Parramore (& Dan Wahl)
 # uciok
 position startpos moves e2e4
 go
@@ -73,7 +73,7 @@ Also accepts a FEN string:
 
 <br>
 
-See the [UCI interface doc](https://github.com/healeycodes/andoma/blob/main/uci-interface.md) for more information on communicating with the engine.
+See the [UCI interface doc](https://github.com/danwahl/danoma/blob/main/uci-interface.md) for more information on communicating with the engine.
 
 Debug information (the number of positions searched, the time taken) is sent to stderr. The engine's response is sent to stdout.
 
